@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 10vh;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color: gainsboro;
+    font-size: 20px;
+    border-radius: 5px;
+    color: gray;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.nome_final{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+.Palavras{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linha{
+    border-bottom: solid black 1px;
+    height: 5vh;
+    margin-top: 40px;
+    display: flex;
+}
+
+.Dialogo_section{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Bloco_dialogo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40vh;
+    background-color: gainsboro;
+    width: 60vw;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+    
+   
+}
+
+.dialogo_inicio{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.dialogo_final{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
